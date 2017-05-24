@@ -1,0 +1,58 @@
+<plugin
+		id="br.ufes.inf.nemo.ml2.vp"
+		name="ML2 Plugin for VP"
+		description="ML2 Model Synchronization Plugin for VP 12.0"
+		provider="Claudenir Fonseca"
+		class="br.ufes.inf.nemo.ml2.vp.ML2PluginForVP">
+	<actionSets>
+		<actionSet id="br.ufes.inf.nemo.ml2.vp.actionset1">
+			<toolbar
+					id="br.ufes.inf.nemo.ml2.vp.actionset1.toolbar1"
+					orientation="north"
+					index="last"/>
+			<action 
+					id="br.ufes.inf.nemo.ml2.vp.actions.ReloadPlugin"
+					actionType="generalAction"
+					description=""
+					style="normal"
+					tooltip="Reload plugin facilitating debug" 
+					icon="icons/refresh4.png"
+					label="Reload Plugin (DEBUG ONLY)" 
+					toolbarPath="br.ufes.inf.nemo.ml2.vp.actionset1.toolbar1/#">
+				<actionController class="br.ufes.inf.nemo.ml2.vp.actions.ReloadPlugin" />
+			</action>
+			<action 
+					id="br.ufes.inf.nemo.ml2.vp.actions.OpenSynchronizationMenu"
+					actionType="generalAction"
+					description=""
+					style="normal"
+					tooltip="Open synchronization menu for loading OntoL based models" 
+					icon="icons/play-triangle.png"
+					label="Open Synchronization Menu"
+					toolbarPath="br.ufes.inf.nemo.ml2.vp.actionset1.toolbar1/#">
+				<actionController class="br.ufes.inf.nemo.ml2.vp.actions.OpenSynchronizationMenu" />
+			</action>
+			<action 
+					id="br.ufes.inf.nemo.ml2.vp.actions.LoadModel"
+					actionType="generalAction"
+					description=""
+					style="normal"
+					tooltip="Loads model from a given path" 
+					icon="icons/upload.png"
+					label="Load Model"
+					toolbarPath="br.ufes.inf.nemo.ml2.vp.actionset1.toolbar1/#">
+				<actionController class="br.ufes.inf.nemo.ml2.vp.actions.LoadModel" />
+			</action>
+			<action 
+					id="br.ufes.inf.nemo.ml2.vp.actions.TestAction"
+					actionType="generalAction"
+					description=""
+					style="normal"
+					tooltip="Runs some test" 
+					label="Run Test (DEBUG ONLY)"
+					toolbarPath="br.ufes.inf.nemo.ml2.vp.actionset1.toolbar1/#">
+				<actionController class="br.ufes.inf.nemo.ml2.vp.actions.TestAction" />
+			</action>
+		</actionSet>
+	</actionSets>
+</plugin>
