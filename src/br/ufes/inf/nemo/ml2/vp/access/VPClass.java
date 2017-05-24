@@ -410,7 +410,7 @@ public class VPClass extends VPModelElement {
 //		VPClass type = (VPClass) VPModelAccess.getModelElement(fqn);
 //		vp_att.getVPSource().setType(type.getVPSource());
 		String type_name = att.isPrimitive() ? 
-				att.getPrimitiveType().toString() : att.get_type().toString();
+				att.getPrimitiveType().toString() : att.get_type().getName();
 		vp_att.getVPSource().setType(type_name);
 	}
 	

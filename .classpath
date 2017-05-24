@@ -5,13 +5,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/VP Debug Library"/>
 	<classpathentry kind="src" path="/br.ufes.inf.nemo.ml2.meta"/>
 	<classpathentry kind="src" path="/br.ufes.inf.nemo.ml2"/>
-	<classpathentry kind="lib" path="lib/br.ufes.inf.nemo.ml2.jar"/>
-	<classpathentry kind="lib" path="lib/com.google.inject_3.0.0.v201605172100.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-2.5-javadoc.jar"/>
 	<classpathentry kind="lib" path="lib/commons-io-2.5.jar"/>
-	<classpathentry kind="lib" path="lib/org.eclipse.emf.common_2.12.0.v20160420-0247.jar"/>
-	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore_2.12.0.v20160420-0247.jar"/>
-	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore.xmi_2.12.0.v20160420-0247.jar"/>
-	<classpathentry kind="lib" path="lib/org.eclipse.xtext_2.10.0.v201605250459.jar"/>
+	<classpathentry kind="lib" path="lib/ML2 Editor-201705241525.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
